@@ -1,0 +1,175 @@
+
+html {
+	position: relative;
+}
+html, body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #efefef;
+	background: #efefef url("../images/wild_flowers.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+  
+/* Header */
+header {
+	height: 100%;
+	border-bottom: 2px solid #cccccc;
+	display: inline-block;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: .5px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 20px;
+	width: auto;
+}
+
+.header-container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#navbar {
+	height: 100%;
+	float: right;
+	padding: 10px;
+}
+
+/* Navbar */
+#navbar a {
+	float: right;
+	display: block;
+	color: grey;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	border: #cccccc
+  }
+
+/* Main Content */
+
+.container-fluid-wrapper {
+	height: 443px;
+	width: 960px;
+	margin: 5px auto;
+	background-color: #ffffff;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.panel-heading {
+	font-size: 2em;
+}
+
+.p {
+	display: inline-block;
+	width: 570px;
+	margin: 40px 0;
+	padding: 40px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border: none;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 32px;
+}
+
+img.profile {
+	float: left;
+	padding: 10px;
+	width: 254;
+	height: 314px;
+}
+
+/* Contact Page */
+.contact {
+	width: 540px;
+}
+
+.contact label {
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+.contact input, .contact textarea {
+	width: 100%;
+	border: 1px solid #cccccc;
+	margin-bottom: 1.5em;
+	padding: 1em;
+	font-size: .9em;
+}
+
+.contact input::-webkit-input-placeholder, .contact textarea::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.contact input::-moz-placeholder, .contact textarea::-moz-placeholder {
+    color: #cccccc;
+}
+
+.contact input::-ms-placeholder, .contact textarea::-ms-placeholder {
+    color: #cccccc;
+}
+
+.contact input::placeholder, .contact textarea::placeholder {
+    color: #cccccc;
+}
+
+.contact input[type="submit"] {
+	width: auto;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	padding: 1em 2em;
+	font-size: 1em;
+}
+
+/* Footer */
+
+  .navbar-inverse {
+	clear: both;
+	position: fixed;
+	border-top: 8px solid #4aaaa5
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+	color: white;
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+  }
+
+  /* Portfolio Page */
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding: 10px;
+	border: 20px;
+	width: 270px;
+	height: 200px;
+}
+
+.item-name {
+	clear: both;
+	position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+	color: #ffffff;
+	z-index: 1000;
+}
