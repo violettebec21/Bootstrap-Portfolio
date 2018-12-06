@@ -18,9 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 .mynavbar {
 	padding-top: 0;
 	padding-bottom: 0;
-	margin: 0 5%;
 	height: 60px;
-
 }
 .myheader {
 	background-color: white;
@@ -110,49 +108,10 @@ img.profile {
 	width: 254;
 	height: 314px;
 }
-
-/* Contact Page */
-.contact {
-	width: 540px;
-}
-
-.contact label {
 	display: block;
 	padding-bottom: 0.5em;
 }
 
-.contact input, .contact textarea {
-	width: 100%;
-	border: 1px solid #cccccc;
-	margin-bottom: 1.5em;
-	padding: 1em;
-	font-size: .9em;
-}
-
-.contact input::-webkit-input-placeholder, .contact textarea::-webkit-input-placeholder {
-    color: #cccccc;
-}
-
-.contact input::-moz-placeholder, .contact textarea::-moz-placeholder {
-    color: #cccccc;
-}
-
-.contact input::-ms-placeholder, .contact textarea::-ms-placeholder {
-    color: #cccccc;
-}
-
-.contact input::placeholder, .contact textarea::placeholder {
-    color: #cccccc;
-}
-
-.contact input[type="submit"] {
-	width: auto;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	border: none;
-	padding: 1em 2em;
-	font-size: 1em;
-}
 
 /* Footer */
 
