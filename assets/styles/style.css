@@ -15,6 +15,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
   
+.mynavbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0 5%;
+	height: 60px;
+
+}
+.myheader {
+	background-color: white;
+	height: 60px;
+}
+.bluebox {
+	background-color: #4aaaa5;
+	height: 100%;
+
+}
+
+.jumbotron {
+	margin: 80px 5% 0;
+	padding: 15px;
+}
+
+.myimage {
+	width: 100%;
+}
+
+
 /* Header */
 header {
 	height: 100%;
@@ -62,10 +89,6 @@ header {
 	background-color: #ffffff;
 	font-size: 14px;
 	line-height: 21px;
-}
-
-.panel-heading {
-	font-size: 2em;
 }
 
 .p {

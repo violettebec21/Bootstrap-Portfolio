@@ -5,11 +5,12 @@
 <head>
 
   <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Bootstrap Profile</title>
 
   <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
@@ -17,65 +18,75 @@
 </head>
 
 <body>
+  <!-- <div class="container"> -->
 
+  <!-- <div class="row myheader"> -->
   <!-- bootstrap navbar -->
-    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-        <a href="#" class="navbar-brand">Rebecca Hoerner</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="navbar-item">
-                    <a href="#" class="nav-link">About</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#" class="nav-link">Portfolio</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-   
-      <!-- main content section -->
-      
-      <section class="container-fluid-wrapper">
-
-          <div class="row">
-
-              <!-- About Me section -->
-              <div class="col-xs-12 col-md-8">
-                  <section class="panel panel-primary">
-
-                      <header class="panel-heading">
-                          <h2>About Me</h2>
-                      </header>
-
-                      <div class="panel-body">
-
-                          <img class="col-xs-12 col-sm-4 col-md-12 col-lg-4" src="assets/images/profile.jpeg" alt="profile photo">
-                          <p>Hi, I'm Rebecca. I'm a Georgia Bulldog currently working at a digital advertising agency in Chicago. Recently, I started my journey in coding at Northwestern.
-                          <br>
-                          <br>I'm obsessed with SEC football, animals, and KitKats. You can usually find me running along the lakeshore path, checking out craft breweries, and exploring new hangouts around the city.
-                          </p>
-
-                      </div>
-
-                  </section>
-                </div>
-
-
-     <!--footer-->
-        <footer class="navbar-inverse">
-                <br>
-                <p>&copy; Copyright 2018 Rebecca Hoerner
-                </p>
-        </footer>
-
-
+  <nav class="mynavbar navbar navbar-light bg-light navbar-expand-lg fixed-top">
+    <div class="col-lg-3 bluebox">
+      <a href="#" class="navbar-brand myname align-self-center col">Rebecca Hoerner</a>
     </div>
+
+    <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="navbar-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link">Portfolio</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- </div>   -->
+
+  <!-- main content section -->
+
+
+
+  <div class="jumbotron">
+
+    <!-- About Me section -->
+    <h2 class="text-left">About Me
+    </h2>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <img class="myimage img thumbnail left-block" src="assets/images/profile.jpeg" alt="profile photo">
+      </div>
+
+      <div class="col-lg-8">
+        <p class="text-wrap">Hi, I'm Rebecca. I'm a Georgia Bulldog currently working at a digital advertising agency
+          in
+          Chicago. Recently, I started my journey in coding at Northwestern. I'm obsessed with SEC football, animals,
+          and
+          KitKats. You can usually find me running along the lakeshore path, checking out craft breweries, and
+          exploring
+          new hangouts around the city.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--footer-->
+  <footer class="navbar-inverse">
+    <br>
+    <p>&copy; Copyright 2018 Rebecca Hoerner
+    </p>
+  </footer>
+
+
+  </div>
 
   </div>
 
