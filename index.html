@@ -18,68 +18,87 @@
 </head>
 
 <body>
-  <!-- <div class="container"> -->
+  <!-- Container Div -->
+  <div class="container">
 
-  <!-- <div class="row myheader"> -->
-  <!-- bootstrap navbar -->
-  <nav class="mynavbar navbar navbar-light bg-light navbar-expand-lg fixed-top">
-    <div class="col-lg-3 bluebox">
-      <a href="/index.html" class="navbar-brand myname align-self-center col">Rebecca Hoerner</a>
-    </div>
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"></span>
-          </button> -->
+      <!-- Our brand / logo -->
+      <a class="navbar-brand" href="#">Rebecca Hoerner</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="navbar-item">
-          <a href="/index.html" class="nav-link">About</a>
-        </li>
-        <li class="navbar-item">
-          <a href="/portfolio.html" class="nav-link">Portfolio</a>
-        </li>
-        <li class="navbar-item">
-          <a href="/contact.html" class="nav-link">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- </div>   -->
+        <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
 
-  <!-- main content section -->
+          <!-- The links of our navbar -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">About <span class="sr-only"></span></a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio.html">Portfolio</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
 
-  <div class="jumbotron">
+          <!-- a Dropdown menu -->
+          <li class="nav-item dropdown">
 
-    <!-- About Me section -->
-    <h2 class="text-left">About Me
-    </h2>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
 
-    <div class="row">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/index.html">About</a>
+              <a class="dropdown-item" href="/portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="/contact.html">Contact</a>
+            </div>
 
-      <div class="col-lg-4 col-md-4 col-sm-6">
-        <img class="myimage img thumbnail left-block" src="assets/images/profile.jpeg" alt="profile photo">
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <div class="col-lg-8">
-        <p class="text-wrap">Hi, I'm Rebecca. I'm a Georgia Bulldog currently working at a digital advertising agency
-          in
-          Chicago. Recently, I started my journey in coding at Northwestern. I'm obsessed with SEC football, animals,
-          and
-          KitKats. You can usually find me running along the lakeshore path, checking out craft breweries, and
-          exploring
-          new hangouts around the city.
+       <!-- Jumbotron element -->
+       <div class="jumbotron">
+
+        <!-- centered text -->
+        <h1 class="text-center"><strong>About Me</strong></h1>
+  
+        <!-- button with predefined style rules -->
+        <p class="text-center">
+          <a class="btn btn-primary btn-lg" href="#" role="button">
+            <span class="fa fa-envelope"></span> </a>
         </p>
+      
+     
+      <!-- a Bootstrap row with columns -->
+      <div class="row">
+  
+        <!-- At large+ screens takes up half width (6/12) -->
+        <div class="col-lg-6">
+  
+          <!-- centered image with thumbnail rules -->
+          <img class="img thumbnail center-block" src="assets/images/profile.jpeg" alt="profile pic" width="50%">
+          <p class="text-wrap">Hi, I'm Rebecca. I'm a Georgia Bulldog currently working at a digital advertising agency
+            in
+            Chicago. Recently, I started my journey in coding at Northwestern. I'm obsessed with SEC football, animals,
+            and
+            KitKats. You can usually find me running along the lakeshore path, checking out craft breweries, and
+            exploring
+            new hangouts around the city.
+          </p>
+        </div>
+  
       </div>
-    </div>
-
-  </div>
-
-
   <!--footer-->
-  <footer class="mynavbar navbar-inverse">
+  <footer class="navbar-inverse">
     <p>&copy; Copyright 2018 Rebecca Hoerner
     </p>
   </footer>
